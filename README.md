@@ -52,8 +52,6 @@ Simply copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugin
 
 # Updating
 
-Updating Problems is easy, and can be done through Grav's GPM system, as well as manually.
-
 ## Manual Update
 
 Manually updating Problems is pretty simple. Here is what you will need to do to get this done:
