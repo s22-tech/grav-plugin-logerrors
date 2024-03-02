@@ -7,7 +7,7 @@ This fork adds the visitors IP address to the log, as well as some code cleanup.
 
 # Installation
 
-To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `logerrors`. You can find these files either on [GitHub](https://github.com/s22-tech/grav-plugin-logerrors).
+To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `logerrors`. You can find these files [here](https://github.com/s22-tech/grav-plugin-logerrors).
 
 You should now have all the plugin files under
 
