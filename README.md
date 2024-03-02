@@ -38,11 +38,11 @@ When the log file is saved to the data folder in the yaml format, then data can 
 
 Simply go to the logerrors plugin in the admin, make any changes, and then click the Save button.  Or to do it manually, copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugins/logerrors.yaml` and make your modifications.
 
-`enabled: true				// Enable or disable plugin`
+`enabled: true			// Enable or disable plugin`
 
-`filename: not_found.txt		// override default file name`
+`filename: not_found.txt	// override default file name`
 
-`folder: logerrors			// override default folder name`
+`folder: logerrors		// override default folder name`
 
 
 # Updating
