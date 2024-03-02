@@ -1,3 +1,11 @@
+# v1.1
+## 2024-03-02
+
+1. [](#new)
+    * Added IP address to the log
+    * Changed directory and file names to be more readable.
+    * Code cleanup
+
 # v1.0.1
 ## 07/09/2016
 
