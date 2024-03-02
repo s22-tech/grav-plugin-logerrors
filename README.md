@@ -11,7 +11,7 @@ Installing the Logerrors plugin can be done in one of two ways. Our GPM (Grav Pa
 
 ## Manual Installation
 
-To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `logerrors`. You can find these files either on [GitHub](https://github.com/hugoaf/grav-plugin-logerrors) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `logerrors`. You can find these files either on [GitHub](https://github.com/s22-tech/grav-plugin-logerrors).
 
 You should now have all the plugin files under
 
