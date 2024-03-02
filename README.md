@@ -2,18 +2,12 @@
 
 `Logerrors` is a [Grav](http://github.com/getgrav/grav) Plugin and records not found 404 errors to data folder.
 
+This fork adds the visitors IP address to the log, as well as some code cleanup.
+
 
 # Installation
 
 Installing the Logerrors plugin can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file. 
-
-## GPM Installation (Preferred)
-
-The simplest way to install this plugin is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
-
-    bin/gpm install logerrors
-
-This will install the Logerrors plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/logerrors`.
 
 ## Manual Installation
 
@@ -50,7 +44,7 @@ Simply copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugin
 
 `enabled: true 				    // Enable or disable plugin`
 
-`filename: notfound.txt		// override default file name`
+`filename: not_found.txt		// override default file name`
 
 `folder: logerrors				// override default folder name`
 
@@ -59,14 +53,6 @@ Simply copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugin
 # Updating
 
 Updating Problems is easy, and can be done through Grav's GPM system, as well as manually.
-
-## GPM Update (Preferred)
-
-The simplest way to update this plugin is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm). You can do this with this by navigating to the root directory of your Grav install using your system's Terminal (also called command line) and typing the following:
-
-    bin/gpm update logerrors
-
-This command will check your Grav install to see if your Logerrors plugin is due for an update. If a newer release is found, you will be asked whether or not you wish to update. To continue, type `y` and hit enter. The plugin will automatically update and clear Grav's cache.
 
 ## Manual Update
 
