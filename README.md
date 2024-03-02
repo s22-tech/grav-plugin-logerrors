@@ -51,7 +51,7 @@ Simply go to the logerrors plugin in the admin, make any changes, and then click
 
 # Updating
 
-Manually updating logerrors is pretty simple. Here is what you will need to do to get this done:
+Manually updating logerrors is pretty simple. Here is what you'll need to do:
 
 * Delete the `your/site/user/plugins/logerrors` directory.
 * Downalod the new version of the Logerrors plugin from either [GitHub](https://github.com/s22-tech/grav-plugin-logerrors).
