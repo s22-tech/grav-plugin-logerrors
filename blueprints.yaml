@@ -1,11 +1,10 @@
 name: Log Errors
-version: 1.0.1
-description: Records 404 errors in data folder
+version: 1.1
+description: Records 404 errors in the data folder
 icon: edit
 author:
-  name: Hugo Avila
-  email: hugoavila@sitoi.com
-  url: http://sitioi.com
+  name: s22 Tech
+  url: https://github.com/s22-tech/
 keywords: plugin, log, errors, 404, not found, data
 homepage: https://github.com/hugoaf/grav-plugin-logerrors
 bugs: https://github.com/hugoaf/grav-plugin-logerrors/issues
@@ -29,13 +28,13 @@ form:
     filename:
       type: text
       label: File name
-      default: 'notfound.txt'
+      default: 'not_found.txt'
       validate:
         type: text
 
     folder:
       type: text
       label: Folder
-      default: 'logerrors'
+      default: 'error_logs'
       validate:
         type: text
