@@ -17,19 +17,19 @@ You should now have all the plugin files under
 
     /your/site/grav/user/plugins/logerrors
 
->> NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav), the [Error](https://github.com/getgrav/grav-plugin-error), the [Admin](https://github.com/getgrav/grav-plugin-admin) and [Data Manager](https://github.com/getgrav/grav-plugin-data-manager) plugins, and a theme to be installed in order to operate.
+>> NOTE: This plugin is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav), the [Error](https://github.com/getgrav/grav-plugin-error), the [Admin](https://github.com/getgrav/grav-plugin-admin), [Data Manager](https://github.com/getgrav/grav-plugin-data-manager) plugins, and a theme to be installed in order to operate.
 
 # Usage
 
-`Logerrors` runs in the background and most of the time you will not know it is there. Although as soon as a 404 page not found is detected by the error plugin, the logerrors plugin will save the url, time and referer(if exists) to a data folder.
+`Logerrors` runs in the background and most of the time you will not know it is there. Although as soon as a 404 error is detected by the error plugin, the logerrors plugin will save the url, time, IP, and referer (if it exists) to a data folder.
 
 When enabled the Logerrors plugin will save data to two files:
 
-- `/user/data/logerrors/notfound.txt`
+- `/user/data/logerrors/not_found.txt`
   This file logs all 404 erros, it will save the url, the time and the HTTP_REFERER (if it exists).
 
-- `/user/data/logerrors/summary_notfound.txt`
-  This file will count the repetitive from the notfound.txt file and present it as a summary.
+- `/user/data/logerrors/summary_not_found.txt`
+  This file will count the repetitive from the not_found.txt file and present it as a summary.
 
 the folder name and the file name can be changed in configuration file or in the admin.
 
