@@ -40,7 +40,7 @@ When the log file is saved to the data folder in the yaml format, then data can 
 
 # Configuration
 
-Simply copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugins/logerrors.yaml` and make your modifications.
+Simply go to the logerrors plugin in the admin, make any changes, and then click the Save button.  Or to do it manually, copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugins/logerrors.yaml` and make your modifications.
 
 `enabled: true 				    // Enable or disable plugin`
 
