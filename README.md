@@ -7,10 +7,6 @@ This fork adds the visitors IP address to the log, as well as some code cleanup.
 
 # Installation
 
-Installing the Logerrors plugin can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the plugin with a simple terminal command, while the manual method enables you to do so via a zip file. 
-
-## Manual Installation
-
 To install this plugin, just download the zip version of this repository and unzip it under `/your/site/grav/user/plugins`. Then, rename the folder to `logerrors`. You can find these files either on [GitHub](https://github.com/s22-tech/grav-plugin-logerrors).
 
 You should now have all the plugin files under
