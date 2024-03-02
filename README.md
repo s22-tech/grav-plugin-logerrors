@@ -1,6 +1,6 @@
 # Grav Log Errors Plugin
 
-`Logerrors` is a [Grav](http://github.com/getgrav/grav) Plugin and records not found 404 errors to data folder.
+`Logerrors` is a [Grav](http://github.com/getgrav/grav) Plugin and records 404 errors to your data folder.
 
 This fork adds the visitors IP address to the log, as well as some code cleanup.
 
