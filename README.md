@@ -49,16 +49,13 @@ Simply copy the `user/plugins/logerrors/logerrors.yaml` into `user/config/plugin
 `folder: logerrors				// override default folder name`
 
 
-
 # Updating
 
-## Manual Update
-
-Manually updating Problems is pretty simple. Here is what you will need to do to get this done:
+Manually updating logerrors is pretty simple. Here is what you will need to do to get this done:
 
 * Delete the `your/site/user/plugins/logerrors` directory.
-* Downalod the new version of the Logerrors plugin from either [GitHub](https://github.com/hugoaf/grav-plugin-logerrors) or [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+* Downalod the new version of the Logerrors plugin from either [GitHub](https://github.com/s22-tech/grav-plugin-logerrors).
 * Unzip the zip file in `your/site/user/plugins` and rename the resulting folder to `logerrors`.
-* Clear the Grav cache. The simplest way to do this is by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
+* Clear the Grav cache. The simplest way to do this is by going to the admin and clicking the Clear cache button.  It can also be done by going to the root Grav directory in terminal and typing `bin/grav clear-cache`.
 
 > Note: Any changes you have made to any of the files listed under this directory will also be removed and replaced by the new set. Any files located elsewhere (for example a YAML settings file placed in `user/config/plugins`) will remain intact.
